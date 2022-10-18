@@ -111,6 +111,7 @@ img {
 .site-header-logo-link {
   display: flex;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .site-header-logo-link:hover {
@@ -148,6 +149,7 @@ img {
   font-size: 12px;
   line-height: normal;
   color: var(--text-color);
+  white-space: nowrap;
 }
 
 .sitenav-link:hover {

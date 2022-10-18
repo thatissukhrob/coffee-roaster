@@ -105,17 +105,17 @@ img {
   white-space: nowrap;
 }
 
-.button-brown {
-  background-color: var(--accent-color-light-brown);
+.button-green {
+  background-color: var(--accent-color-green);
   color: #fff;
 }
 
-.button-light-:hover {
-  background-color: var(--accent-color-light-brown-80);
+.button-green-:hover {
+  background-color: var(--accent-color-green-80);
 }
 
-.button-brown:hover {
-  background-color: var(--accent-color-light-brown-60);
+.button-green:hover {
+  background-color: var(--accent-color-green-60);
 }
 
 /* MAIN-CONTENT */

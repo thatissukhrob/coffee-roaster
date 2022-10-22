@@ -207,6 +207,11 @@ img {
   white-space: nowrap;
 }
 
+.sitenav-medium-font .sitenav-link {
+  font-size: 16px;
+  line-height: normal;
+}
+
 .sitenav-link:hover {
   color: var(--accent-color-green);
 }
@@ -484,7 +489,68 @@ img {
 }
 
 .how-it-works-cta:focus {
-  outline-color: var(--accent-color-light-brown);
+  outline-color: var(--accent-color-light-brown );
+}
+
+/* SITE-FOOTER */
+
+.site-footer {
+  background-color: var(--light-brown);
+  background-image: url(../img/site-hero-intro-bg-min.jpg);
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.site-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer-logo-link {
+  display: flex;
+}
+
+.site-footer-logo-img {
+  width: 235px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.site-footer-logo-link:hover {
+  opacity: 0.8;
+}
+
+.site-footer-logo-link:active {
+  opacity: 0.6;
+}
+
+/* SOCIALS */
+
+.socials {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socials-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.socials-link {
+  display: flex;
+  color: #333;
+}
+
+.socials-link:hover {
+  color: var(--accent-color-green);
+}
+
+.socials-link:active {
+  opacity: 0.6;
 }
 
 /* RETINA BG */
@@ -510,6 +576,10 @@ only screen and (                min-resolution: 2dppx) {
 
   .how-it-works-inner {
     background-image: url(../img/green-bg@2x-min.jpg);
+  }
+
+  .site-footer {
+    background-image: url(../img/site-hero-intro-bg-min.jpg);
   }
 
 }
